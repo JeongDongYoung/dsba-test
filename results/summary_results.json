@@ -1,0 +1,32 @@
+[
+  {
+    "label": "qwen2.5-0.5b-sft (Full FT)",
+    "model": "/content/drive/MyDrive/dsba-coding-test/checkpoints/qwen2.5-0.5b",
+    "acc": 0.31222780569514236,
+    "acc_norm": 0.3078726968174204
+  },
+  {
+    "label": "qwen2.5-0.5b-sft (QLoRA)",
+    "model": "/content/drive/MyDrive/dsba-coding-test/checkpoints/qwen2.5-0.5b-qlora_merged",
+    "acc": 0.31055276381909547,
+    "acc_norm": 0.3159128978224456
+  },
+  {
+    "label": "qwen2.5-1.5b-sft (QLoRA)",
+    "model": "/content/drive/MyDrive/dsba-coding-test/checkpoints/qwen2.5-1.5b_merged",
+    "acc": 0.40067001675041874,
+    "acc_norm": 0.4067001675041876
+  },
+  {
+    "label": "qwen2.5-0.5b-instruct (baseline)",
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "acc": 0.2897822445561139,
+    "acc_norm": 0.2981574539363484
+  },
+  {
+    "label": "qwen2.5-1.5b-instruct (baseline)",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "acc": 0.33701842546063654,
+    "acc_norm": 0.342713567839196
+  }
+]
