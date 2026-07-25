@@ -12,6 +12,6 @@ test split 전체 2,985문항 · lm-evaluation-harness · Colab T4
 
 *참고
 - base(미학습): 0.5B 0.2874 / 1.5B 0.3464.
-- 순수 SFT: 0.5B FT 0.2556 / 0.5B QLoRA 0.2814 / 1.5B 0.3387.*
+- 순수 SFT: 0.5B FT 0.2556 / 0.5B QLoRA 0.2814 / 1.5B 0.3387.
 
 wandb: https://wandb.ai/dongyoung/dsba-coding-test-math-sft
