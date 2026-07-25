@@ -6,7 +6,7 @@
 | **학습 모델** | [`Qwen2.5-0.5B`](https://huggingface.co/Qwen/Qwen2.5-0.5B) · [`Qwen2.5-1.5B`](https://huggingface.co/Qwen/Qwen2.5-1.5B) &nbsp;— base *(Instruct 학습 금지)* |
 | **평가** | [`allenai/math_qa`](https://huggingface.co/datasets/allenai/math_qa) — [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)의 `mathqa` (5지선다 acc) |
 | **baseline** | [`Qwen2.5-0.5B-Instruct`](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct) · [`Qwen2.5-1.5B-Instruct`](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct) &nbsp;*(학습 없이 평가만)* |
-| **환경 · 로그** | Colab T4 · [wandb](https://wandb.ai/dongyoung/dsba-coding-test-math-sft) 로깅 · 산출물은 Google Drive |
+| **환경 · 로그** | Colab T4 · [wandb](https://wandb.ai/dongyoung/dsba-coding-test-math-sft) |
 
 ## 결과 (mathqa acc)
 
